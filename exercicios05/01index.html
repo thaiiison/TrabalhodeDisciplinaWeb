@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Médias</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Médias</h1>
+        <label for="numero1">Digite o primeiro número:</label>
+        <input type="number" id="numero1" step="0.01">
+        <br>
+        <label for="numero2">Digite o segundo número:</label>
+        <input type="number" id="numero2" step="0.01">
+        <br>
+        <label for="numero3">Digite o terceiro número:</label>
+        <input type="number" id="numero3" step="0.01">
+        <br>
+        <button onclick="calcularMedias()">Calcular Médias</button>
+        <div id="resultados">
+            <p id="mediaAritmetica"></p>
+            <p id="mediaPonderada"></p>
+            <p id="somaMedias"></p>
+            <p id="mediaDasMedias"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
